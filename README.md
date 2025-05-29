@@ -13,22 +13,7 @@ This project is a TestNG-based Selenium automation framework for testing the **A
 
 ## Project Structure
 
-OrangeHRM_Automation/
-│
-├── src/
-│ ├── main/
-│ │ └── java/
-│ │ └── com/orangehrm/
-│ │ ├── pages/ # Page Object Model classes
-│ │ └── utils/ # Reusable utility classes
-│ └── test/
-│ └── java/
-│ └── com/orangehrm/tests/ # Test classes
-│
-├── testng.xml # TestNG suite configuration
-├── pom.xml # Maven dependencies and project config
-└── .classpath, .project, .settings/ # Eclipse IDE configuration files
-
+<pre lang="markdown"> ## Project Structure <code> OrangeHRM_Automation/ ├── src/ │ ├── main/ │ │ └── java/ │ │ └── com/orangehrm/ │ │ ├── pages/ # Page Object Model classes │ │ │ ├── AdminPage.java │ │ │ └── LoginPage.java │ │ └── utils/ # Utility classes │ │ ├── AutoCompleteDropdownSelector.java │ │ └── DropdownSelector.java │ └── test/ │ └── java/ │ └── com/orangehrm/tests/ # Test classes │ ├── AdminTest.java │ ├── LoginTest.java │ └── TestBase.java ├── testng.xml # TestNG suite configuration ├── pom.xml # Maven dependencies and project config ├── .classpath ├── .project └── .settings/ # Eclipse settings </code> </pre>
 
 ## Features Automated
 
